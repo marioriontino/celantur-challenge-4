@@ -26,13 +26,13 @@ Tasks
 
 Read [README.md](./README.md) for the overall task and how we evaluate your code.
 
-- [ ] Fork this repository.
+- [ ] [Create a new (private) repository](https://github.com/celantur/celantur-challenge-4/generate) using this repository as template.
 - [ ] Amend this README file if clarifcations are required.
 - [ ] Implement the blurring algorithm that can run both on CPU only as well as with GPU acceleration.
 - [ ] Provide unit tests for your code. 
 - [ ] Document how to set up, run and test your code. 
 - [ ] Fill out the self-evaluation matrix, see below.
-- [ ] Make a pull request if you think you are done.
+- [ ] Share the repository with the [Celantur Bot](https://github.com/celantor) when you are done.
 
 Deliverables
 ------------
