@@ -5,7 +5,7 @@ Processing images fast and hardware-efficient is the core of our success.
 Thus we want your help in improving our algorithms.
 If you are solving this challenge as part of our *interview process*, please read [the detailed instruction](Hiring.md).  
 
-***The goal of this challenge is to implement the fastest algorithm to blur the people (segmentation) in the images provided.***
+***The goal of this challenge is to implement the fastest (parallelised) algorithm to blur the people (segmentation) in the images provided.***
 
 <table>
 <thead>
@@ -30,6 +30,8 @@ Don't hesitate to [write us](mailto:hello@celantur.com) if you have any question
 
 The Task
 --------
+
+Make the blurring process as fast as possible (given the hardware constraints), you can use parallelisation, memory optimisation or any other technique that you see fit. 
 
 You can download the images using [`download_coco_images.ipynb`](./download_coco_images.ipynb). Images are selected from the [COCO Dataset](https://cocodataset.org/#explore).
 
