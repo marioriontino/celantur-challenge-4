@@ -31,7 +31,7 @@ Don't hesitate to [write us](mailto:hello@celantur.com) if you have any question
 The Task
 --------
 
-Make the blurring process as fast as possible (given the hardware constraints). Use parallelisation, memory optimisation or any other technique that you see fit. 
+Make the blurring process as fast as possible (given the hardware constraints). Use multiprocessing or multithreading, memory optimisation or any other technique that you see fit. 
 
 You can download the images using [`download_coco_images.ipynb`](./download_coco_images.ipynb). Images are selected from the [COCO Dataset](https://cocodataset.org/#explore).
 
@@ -51,5 +51,3 @@ The reference hardware on which the algorithm will be tested is a [p3.2xlarge](h
 - 61 GiB Memory
 
 The OS is **Linux** / Ubuntu 20.04 LTS (Focal Fossa). 
-
-The blurring algorithm must be **irreversible** (a non-invertible function) and parallelised.
