@@ -34,11 +34,11 @@ The Task
 Make the blurring process as fast as possible (given the hardware constraints). 
 Use multiprocessing or multithreading, memory optimisation or any other technique that you see fit. 
 
-You can download the images using [`download_coco_images.ipynb`](./download_coco_images.ipynb). 
+You can download the images and segmentation masks using [`download_coco_images.ipynb`](./download_coco_images.ipynb).
 Images are selected from the [COCO Dataset](https://cocodataset.org/#explore).
 
-Implement the non-invertible blurring algorithm in C/C++ (CUDA). 
-The COCO API provides [C code](https://github.com/cocodataset/cocoapi/blob/master/common/maskApi.c) to turn the segmentation annotation into binary mask (numpy 2D array), cf [coco.py](https://github.com/cocodataset/cocoapi/blob/8c9bcc3cf640524c4c20a9c40e89cb6a2f2fa0e9/PythonAPI/pycocotools/coco.py#L434).
+Implement the (non-invertible) blurring algorithm in C/C++ (CUDA).
+<!--The COCO API provides [C code](https://github.com/cocodataset/cocoapi/blob/master/common/maskApi.c) to turn the segmentation annotation into binary mask (numpy 2D array), cf [coco.py](https://github.com/cocodataset/cocoapi/blob/8c9bcc3cf640524c4c20a9c40e89cb6a2f2fa0e9/PythonAPI/pycocotools/coco.py#L434).-->
 
 Provide us with information how to set up and run your code, preferrably Dockerised.
 
