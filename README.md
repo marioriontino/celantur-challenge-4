@@ -47,6 +47,22 @@ Provide us with information how to set up and run your code.
 
 Share your code with the [Celantur Bot](https://github.com/celantor).
 
+What we review
+------------
+
+Your code will be reviewed by at least three of our engineers. The aspects of your code we will judge include:
+- **Performance**: Does the code do what was asked? If there is anything missing, does the README explain why it is missing?
+- **Code Quality**: Is the code simple, easy to understand, and maintainable?
+- **Technical Choices**: Do choices of libraries, algorithms, and architecture seem appropriate for the challenge?
+
+Prize
+------------
+
+Every 2 months, our engineering team will select the winner, who will receive a **€150 Amazon Voucher Card** (10 minimum participants). Share the challenge with your friends and acquaintances using this link:   
+
+Note that the leaderboard will be reset every 2 months. It is not possible to receive multiple voucher cards with the same code submission.
+
+
 Evaluation
 ------------
 
